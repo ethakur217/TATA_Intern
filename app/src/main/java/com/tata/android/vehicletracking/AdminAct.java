@@ -6,6 +6,8 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -41,8 +43,10 @@ public class AdminAct extends FragmentActivity implements OnMapReadyCallback {
 
         // Add a marker in Sydney and move the camera
         LatLng jsr = new LatLng(latitudeStr,longitudeStr);
-        mMap.addMarker(new MarkerOptions().position(jsr).title("User marker"));
+        mMap.addMarker(new MarkerOptions().position(jsr).title("User marker").snippet("Vehicle no:")
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.bus)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(jsr));
-    }
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(15));
 
+    }
 }
