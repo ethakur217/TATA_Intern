@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "928416212735",
+    "firebase_url": "https://tata-intern.firebaseio.com",
+    "project_id": "tata-intern",
+    "storage_bucket": "tata-intern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928416212735:android:661415bd76a22668",
+        "android_client_info": {
+          "package_name": "com.tata.android.vehicletracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928416212735-15ms60ft1qoqa0i0picouf1out8s1068.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tata.android.vehicletracking",
+            "certificate_hash": "0240f457db11d8230affc92ad016aaea2c1745d2"
+          }
+        },
+        {
+          "client_id": "928416212735-hph6pf355knfk9oubuqtm3qi5ep5ve2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhJe3QlUY8_SUeulfRVWlmODVdwX2Gz4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928416212735-hph6pf355knfk9oubuqtm3qi5ep5ve2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
